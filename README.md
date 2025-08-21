@@ -13,7 +13,7 @@ The webpage is structured into several key sections:
 
 •	**Projects:** Showcases three projects—Portfolio Website, Web Scraping Bot, and WordPress Site—with descriptions and key features.
 
-•	**Video Demo: **Integrates a YouTube tutorial video demonstrating basic HTML and CSS concepts.
+•	**Video Demo:** Integrates a YouTube tutorial video demonstrating basic HTML and CSS concepts.
 
 •	**Contact:** Provides a form for inquiries, collaborations, or feedback, along with email and social media links (LinkedIn, GitHub).
 
