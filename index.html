@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sumaira Nasir | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Sumaira<span>Nasir</span></div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#video">Video Demo</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="main">
+    <div class="main-section">
+      <h1>Hello, I’m <span>Sumaira</span></h1>
+      <p style="font-size: medium; color: beige;">Python Developer | Web Scraper | Freelancer</p>
+      <a class="btn" href="#projects">View my work</a>
+    </div>
+  </div>
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="assets/profile.jpeg" alt="Sumaira Nasir">
+      </div>
+      <div class="about-text">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">Who I am and what I do</p>
+        <p>
+          I’m <strong>Sumaira Nasir</strong>, a passionate BSIT student and 
+          Python developer specializing in <em>web scraping, automation, and web development</em>. 
+          I love solving problems with clean and efficient code while continuously learning 
+          new technologies.
+        </p>
+        <ul class="highlights">
+          <li>💻 Skilled in Python & Selenium</li>
+          <li>🌐 Experience with WordPress & HTML/CSS</li>
+          <li>📊 Strong background in data handling & Excel automation</li>
+          <li>🚀 Eager to collaborate on innovative projects</li>
+        </ul>
+        <a href="assets/resume.pdf" class="btn" target="_blank">Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Table Skills Section -->
+  <section id="skills" class="table-section">
+    <h2 class="section-title">My Skills</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Skill</th>
+          <th>Experience Level</th>
+          <th>Years of Practice</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Python</td>
+          <td>Intermediate</td>
+          <td>2 Years</td>
+        </tr>
+        <tr>
+          <td>Web Scraping</td>
+          <td>Intermediate</td>
+          <td>1 Year</td>
+        </tr>
+        <tr>
+          <td>HTML & CSS</td>
+          <td>Beginner</td>
+          <td>1.5 Years</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="assets/portfolio1.png" alt="Portfolio Website">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio website showcasing my skills and projects.</p>
+        <h4>Key Features:</h4>
+        <ul>
+          <li>Responsive design</li>
+          <li>Interactive navigation</li>
+          <li>Embedded media</li>
+        </ul>
+      </div>
+      <div class="project-card">
+        <img src="assets/bot.jpg" alt="Web Scraping Bot">
+        <h3>Web Scraping Bot</h3>
+        <p>Automated data extraction tool using Python and Selenium.</p>
+        <h4>Development Steps:</h4>
+        <ol>
+          <li>Install required libraries</li>
+          <li>Set up Selenium driver</li>
+          <li>Extract and process data</li>
+        </ol>
+      </div>
+      <div class="project-card">
+        <img src="assets/wordpress2.png" alt="WordPress Site">
+        <h3>WordPress Site</h3>
+        <p>A fully functional business website built with WordPress.</p>
+        <h4>Key Features:</h4>
+        <ul>
+          <li>Custom themes</li>
+          <li>Plugin integration</li>
+          <li>SEO optimization</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video -->
+  <section id="video" class="video-section">
+    <h2 class="section-title">Video Demo: Web Development Tutorial</h2>
+    <p>A short video demonstrating basic HTML and CSS concepts for beginners.</p>
+    <div class="video-container">
+      <iframe 
+        width="100%" 
+        height="auto" 
+        src="https://www.youtube.com/embed/HcOc7P5BMi4" 
+        title="HTML & CSS Tutorial" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+    <figcaption>Video courtesy of YouTube - HTML & CSS Basics.</figcaption>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <p>Reach out via the form below or through my social links.</p>
+      <form action="#" method="post">      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+      <label for="topic">Topic:</label>
+      <select id="topic" name="topic" required>
+        <option value="">Select a Topic</option>
+        <option value="inquiry">General Inquiry</option>
+        <option value="collaboration">Collaboration</option>
+        <option value="feedback">Feedback</option>
+      </select>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+
+      <button type="submit" class="btn">Submit</button>
+    </form>
+    <p>Email: <a href="mailto:sam870065@gmail.com">sam870065@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/sumaira-nasir-839108366" target="_blank" rel="noopener">linkedin.com/in/sumaira-nasir</a></p>
+    <p>GitHub: <a href="https://github.com/SumairaaNasir" target="_blank" rel="noopener">github.com/SumairaaNasir</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Sumaira Nasir | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
